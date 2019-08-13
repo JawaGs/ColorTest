@@ -15,7 +15,7 @@ export default class Juego extends React.Component {
 
     generarClave = () => {
         const clave_laboratorio = clave.generarClave()
-        this.setState({ clave_laboratorio })
+        this.setState({ clave_laboratorio,count: 10, })
         alert('Su clave a sido generada con exito!')
     }
 
@@ -45,7 +45,7 @@ export default class Juego extends React.Component {
          }
 
     render() {
-        console.log(this.state)
+       
         return (
             <div>
                 <h4>
