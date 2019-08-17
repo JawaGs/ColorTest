@@ -1,4 +1,62 @@
 body {
   color: white;
-  background-color: black;
+  background-image: url("http://orig05.deviantart.net/fb1d/f/2011/057/f/b/dr_lab_2_with_the_tube_by_nerdmaso-d3afg7d.jpg");
+  background-size: cover;
+  background-repeat: no-repeat
+  
+}
+
+.contenedor__instrucciones{
+  border: dotted darkgray 12px ;
+  height: 95vh;
+  background-color: gray;
+  border-radius: 10px
+}
+
+.instrucciones{
+  width: 30vw;
+  height: 90vh;
+  border-radius: 10px;
+  background-color: #444
+}
+
+.naranja{
+  background-color: orangered ;
+ 
+}
+.naranja:hover{
+  background-color: rgba(255, 68, 0, 0.822)
+}
+
+.violeta{ 
+  background-color: blueviolet
+ }
+ .violeta:hover{ 
+  background-color: rgba(137, 43, 226, 0.767)
+ }
+
+ p{
+   font-size: 1.15vw
+ }
+
+ @media (max-width:1100px){
+   p{
+     font-size: 1.35vw
+   }
+ }
+
+ @media (max-width:781px){
+  .instrucciones{
+    width: 88vw;
+    height: 88vh
+  }
+  p{
+    font-size: 1.9vw
+  }
+}
+
+@media (max-width:530px){
+  p{
+    font-size: 2.5vw
+  }
 }
