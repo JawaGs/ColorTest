@@ -6,12 +6,7 @@ body {
   
 }
 
-.contenedor__instrucciones{
-  border: dotted darkgray 12px ;
-  height: 95vh;
-  background-color: gray;
-  border-radius: 10px
-}
+
 
 .instrucciones{
   width: 30vw;

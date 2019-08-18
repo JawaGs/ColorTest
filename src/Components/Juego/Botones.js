@@ -90,13 +90,9 @@ const Botones = () => {
                 ) : null
             )
     }
-
-
-
     
     return (
-        <div className='mx-4 col-md-6' >
-
+        <div className='mx-4 px-5 col-md-6' >
             <Card className='mt-5'>
                 <Card.Header>
                     <FormControl id='input' readOnly size='lg' type='text' value={clave_usuario} placeholder='Introduzca su clave' className=' m-2' />
@@ -112,18 +108,13 @@ const Botones = () => {
                     <Button onClick={handleClick} className='naranja m-2' value='N'>N</Button>
                     <Button onClick={handleClick} className='violeta m-2' value='I'>I</Button>
                 </ButtonGroup>
-
                 <Botones_de_Funcion borrarClave={() => setClaveUsuario('')} generarClave={generarClave} compararClave={compararClave} volverAtras={volverAtras} />
-
-
                 <Card.Footer>
                     <div>Opurtinidades restantes:{count}</div>
                 </Card.Footer>
             </Card>
-
         </div>
     )
-
 }
 
 export default Botones
